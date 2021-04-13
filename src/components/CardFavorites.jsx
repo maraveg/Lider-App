@@ -3,15 +3,15 @@ import chocolate from '../chocolate.png';
 
 
 
-const LastBuys = ({ lastBuy, setLastBuy }) => {
+const CardFavorites = ({ favorites, setfavorites }) => {
 
 
-console.log(22, lastBuy )
+
     return (
         <Fragment>
-            <h3>Ultima compra</h3>
+            <h3>Ofertas para Ti</h3>
             <div className="seccion-products">
-                {lastBuy.map((item, index) => (
+                {favorites.map((item, index) => (
                     <div key={index + "product"} className="each-product">
                         <img src={item.img} className='img-product' alt="imgProduct"/>
                         <h3 className="product-price">{item.Precio}</h3>
@@ -26,4 +26,4 @@ console.log(22, lastBuy )
     )
 }
 
-export default LastBuys;
+export default CardFavorites;
