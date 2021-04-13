@@ -7,7 +7,7 @@
             "Cantidad": "1 kg",
             "Precio" :  "$5.990",
             "Otro": "$1.290",
-            "img": "https://imgur.com/bBq6IAH"
+            "img": "https://i.imgur.com/2Yz89TN.jpg"
         },
         {
             "id": 2,
@@ -16,7 +16,7 @@
             "Cantidad": "6 un",
             "Precio":	"$1.000",
             "Otro": "Precio x Un : $167",
-            "img":"https://imgur.com/xPLZ6bQ"
+            "img":"https://i.imgur.com/NEyEbEN.jpg"
         },
         {
             "id": 3,
@@ -25,7 +25,7 @@
             "Cantidad":	"150 g",
             "Precio": "$2.650",
             "Otro": "Precio x Un : $695",
-            "img":"https://imgur.com/g62dGjg"
+            "img":"https://i.imgur.com/EEPxSTV.jpg"
         },
         {
             "id": 4,
@@ -34,7 +34,7 @@
             "Cantidad":	"120 g",
             "Precio":	"$490",
             "Otro":	"Precio x Kg : $29.200",
-            "img":" https://imgur.com/H6iWfbP "
+            "img":" https://i.imgur.com/PK7ok8t.jpg"
         }
         ]
         
