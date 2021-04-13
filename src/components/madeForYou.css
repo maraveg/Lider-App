@@ -1,0 +1,45 @@
+@media (min-width : 360px) and (max-width: 768px) {
+    .seccion-products{
+        display: flex;
+        overflow-y: scroll;
+    }
+
+    ::-webkit-scrollbar {
+        display: none;
+    }    
+    .each-product{
+        min-width: 43%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-product{
+        max-width: 70px;
+    }
+
+    .product-name{
+        font-size: 50px;
+        margin: 0;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+    }
+    .product-price{
+        font-size: 13px;
+        margin: 0;
+    }
+
+    /* recipe */
+    .recipe-img {
+        width: 276px;
+        border-radius: 13px;
+        margin: 0 2px 0 15px;
+    }
+
+    .each-recipe{
+        /* width: 1396px; */
+    }
+
+}

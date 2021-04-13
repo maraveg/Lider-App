@@ -11,7 +11,7 @@ const Home = () =>{
 				</div>
 				<div id="text-button">
 					<p>Juana, encuentra tus favoritos a un solo click</p>
-					<Link to="#"><button id="enter-btn">Click</button></Link>
+					<Link to="/madeForYou"><button id="enter-btn">Click</button></Link>
 				</div>
 			</div>
 		</section>
