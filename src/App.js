@@ -12,7 +12,11 @@ import MadeForYou from './components/MadeForYou.jsx';
 
 function App() {
 
-  const [product, setProduct] = React.useState([]);
+  const [favorites, setfavorites] = React.useState([]);
+  const [offer, setOffer] = React.useState([]);
+  const [lastBuy, setLastBuy] = React.useState([]);
+  const [basket, setBasket] = React.useState([]);
+
 
   React.useEffect(() => {
     getData();
@@ -22,7 +26,10 @@ function App() {
     const data = await fetch("https://luzciel.github.io/Lider-App/src/data/product.json"
     );
     const allProduct = await data.json();
-    setProduct(allProduct.favorito);
+    setfavorites(allProduct.favorito);
+    setOffer(allProduct.ultimaOportunidad);
+    setLastBuy(allProduct.ultimaCompra);
+    setBasket(allProduct.canasta);
   };
 
 
@@ -37,8 +44,14 @@ function App() {
         </Route>
         <Route path="/madeForYou">
           <MadeForYou
-          product={product}
-          setProduct={setProduct}
+          favorites={favorites}
+          setfavorites={setfavorites}
+          offer={offer}
+          setOffer={setOffer}
+          lastBuy={lastBuy}
+          setLastBuy={setLastBuy}
+          basket={basket}
+          setBasket={setBasket}
           />
         </Route>
        
