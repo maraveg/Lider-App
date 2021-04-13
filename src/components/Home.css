@@ -1,0 +1,49 @@
+#background{
+    text-align: center;
+    background-image: url(./Back-home.png);
+    position: fixed;
+    min-width: 360px;
+    min-height: 696px;
+    background-size: cover;
+    background-position: center;    
+}
+#banner-container{
+    width: 333px;
+    height: 122px;
+    display: flex;
+    background: rgba(203, 55, 55, 0.47);
+    border-radius: 7px;
+}
+#image-container{
+    width: 119px;
+    height: 122px;
+}
+#gif-img{
+    width: 119px;
+    height: 122px;
+}
+#text-button{
+    width: 154px;
+    
+}
+#text-button p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 13px;
+}
+#enter-btn{
+    width: 119px;
+    height: 35px;
+    background: #FFC220;
+    border-radius: 7px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    text-decoration: none;
+    font-size: 12px;
+    border: none;
+    align-items: center;
+    text-align: center;
+    color: #0071ce;
+}
