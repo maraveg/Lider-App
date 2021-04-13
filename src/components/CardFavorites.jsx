@@ -1,6 +1,4 @@
 import React, { Fragment, useState } from 'react';
-import chocolate from '../chocolate.png';
-
 
 
 const CardFavorites = ({ favorites, setfavorites }) => {
