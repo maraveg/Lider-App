@@ -3,7 +3,7 @@
         {
             "id": 1,
             "Marca": "Colun",
-            "Descripcion": "Leche Sabor Chocolate Semidescremada",
+            "Descripcion": "Chocolate Semidescremada",
             "Cantidad": "1 L",
             "Precio" :  "$1.290",
             "Otro": "$1.290"
@@ -19,7 +19,7 @@
         {
             "id": 3,
             "Marca": "Lechuga",
-            "Descripcion": "Lechuga Escarola Unidad",
+            "Descripcion": "Lechuga Escarola",
             "Cantidad":	"1 Un",
             "Precio": "$790",
             "Otro": "Precio x Un : $790"
@@ -27,7 +27,7 @@
         {
             "id": 4,
             "Marca": "Nescafé",
-            "Descripcion": 	"Café instantáneo granulado",
+            "Descripcion": 	"Café instantáneo",
             "Cantidad":	"50 g",
             "Precio":	"$1.460",
             "Otro":	"Precio x Kg : $29.200"
@@ -35,7 +35,7 @@
         {
             "id": 5,
             "Marca": "Sabro Kan",
-            "Descripcion": "Alimento Perro Adulto Carne y Arroz Bolsa",
+            "Descripcion": "Alimento Perro Carne",
             "Cantidad":	"9 Kg",
             "Precio": "$7.350",
             "Otro":	"Normal:$8.150 Ahorro:$800"
@@ -43,7 +43,7 @@
         {
             "id": 6,
             "Marca": "Felix",
-            "Descripcion": "Felix Adulto Atún",
+            "Descripcion": "Felix Atún",
             "Cantidad": "85 g",
             "Precio": "$500",
             "Otro":	"Precio x Kg : $5.882"
@@ -53,7 +53,7 @@
             {
                 "id": 7,
                 "Marca": "Lider",
-                "Descripcion": "Choclo En Granos Congelado",
+                "Descripcion": "Choclo Congelado",
                 "Cantidad": "500 g",
                 "Precio": "$1.000",
                 "Otro":	"Precio x Kg : $2.000"
@@ -69,7 +69,7 @@
             {
                 "id": 9,
                 "Marca": "Cebolla",
-                "Descripcion": "Cebolla Morada Malla",
+                "Descripcion": "Cebolla Morada",
                 "Cantidad": "1 Kg",
                 "Precio": "$1.000",
                 "Otro": "Precio x Kg : $1.000"
@@ -77,7 +77,7 @@
             {
                 "id": 10,
                 "Marca": "Simond's",
-                "Descripcion": "Shampoo Brillitos de Argán",
+                "Descripcion": "Shampoo Brillitos",
                 "Cantidad":	"400 ml",
                 "Precio":	"$2.190",
                 "Otro":	"Precio x L : $5.475"
@@ -85,7 +85,7 @@
             {
                 "id": 11,
                 "Marca": "Nestlé",
-                "Descripcion": "Chocolate Sahne Nuss Leche",
+                "Descripcion": "Chocolate Sahne Nuss",
                 "Cantidad": "250 g",
                 "Precio": "$3.150",
                 "Otro": "Precio x Kg : $12.600"
@@ -104,7 +104,7 @@
             {
                 "id": 12,
                 "Marca": "Supremo",
-                "Descripcion": "Té Ceylán Premium Caja",
+                "Descripcion": "Té Ceylán",
                 "Cantidad": "100 Un",
                 "Precio": "$2.690",
                 "Otro":	"22 Pesos"
@@ -112,7 +112,7 @@
             {
                 "id": 13,
                 "Marca": "Supremo",
-                "Descripcion": "Hierba Surtidas Caja",
+                "Descripcion": "Hierba Surtidas",
                 "Cantidad":	"100 Un",
                 "Precio": "$3.790",
                 "Otro":	"Precio x Un : $38"
@@ -120,7 +120,7 @@
             {
                 "Id": 14,
                 "Marca" : "Supremo",
-                "Descripción": "Hierba Surtidas Caja",
+                "Descripción": "Hierba Surtidas",
                 "Cantidad": "100 Un",
                 "Precio" : "$3.790",
                 "Otro": "Precio x Un : $38"
@@ -155,7 +155,7 @@
             {
             "Id": 26,
             "Marca": "El Buen Corte",
-            "Descripción": "Sobrecostilla - Huachalomo",
+            "Descripción": "Sobrecostilla",
             "Cantidad": "400 gr",
             "Precio": "$3.716",
             "Otro": "Precio x Kg:$9.290"
@@ -171,7 +171,7 @@
             {
             "Id": 19,
             "Marca": "Uva",
-            "Descripción": "Uva Blanca Pote",
+            "Descripción": "Uva Blanca",
             "Cantidad": "500 g",
             "Precio": "$1.790",
             "Otro": "Precio x Kg : $3.580"
@@ -179,7 +179,7 @@
             {
             "Id": 20,
             "Marca" : "Tucapel",
-            "Descripción": "Arroz Grado 2 Bolsa",
+            "Descripción": "Arroz Grado 2",
             "Cantidad": "1 Kg",
             "Precio": "$1.060",
             "Otro": "Precio x Kg : $1.060"
@@ -187,7 +187,7 @@
             {
             "Id": 21,
             "Marca": "Campo Lindo",
-            "Descripción": "Garbanzo sin Piel Campo Lindo",
+            "Descripción": "Garbanzo sin Piel",
             "Cantidad": "1000 g",
             "Precio": "$2.450",
             "Otro" : "Precio x Kg : $2.450"
@@ -195,7 +195,7 @@
             {
             "Id": 22,
             "Marca": "Selz",
-            "Descripción": "Galleta Salvado Tripack",
+            "Descripción": "Galleta Salvado",
             "Cantidad" : "519 g",
             "Precio" : "$1.750",
             "Otro": "Precio x Kg : $3.372"
@@ -211,7 +211,7 @@
             {
             "Id": 24,
             "Marca": "Pomarola",
-            "Descripción": "Salsa tomate tradicional",
+            "Descripción": "Salsa tomate",
             "Cantidad": "6 Un (200 g c/u)",
             "Precio": "$2.190",
             "Otro": "Precio x Kg : $1.825"
@@ -219,7 +219,7 @@
             {
             "Id": 25,
             "Marca": "Natura",
-            "Descripción": "Aceite 100% Maravilla Botella",
+            "Descripción": "Aceite Maravilla",
             "Cantidad":"1 L",
             "Precio" :"$1.750",
             "Otro": "Precio x L : $1.750"

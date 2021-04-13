@@ -6,32 +6,42 @@ import {
   Link,
   NavLink
 } from "react-router-dom";
-import Header from './components/home/Header.jsx';
 import Home from './components/Home.jsx';
+import MadeForYou from './components/MadeForYou.jsx';
 
 
 function App() {
+
+  const [product, setProduct] = React.useState([]);
+
+  React.useEffect(() => {
+    getData();
+  }, []);
+
+  const getData = async () => {
+    const data = await fetch("https://luzciel.github.io/Lider-App/src/data/product.json"
+    );
+    const allProduct = await data.json();
+    setProduct(allProduct.favorito);
+  };
+
+
   return (
     <Router>
     <div>
      <div>
-      <Header />
      </div>
       <Switch>
         <Route path="/" exact>
           <Home/>
         </Route>
-        <Route path="/carausel">
-
+        <Route path="/madeForYou">
+          <MadeForYou
+          product={product}
+          setProduct={setProduct}
+          />
         </Route>
-        <Route path="/orders/:numTable"
-        component={OrdersViews} />
-        <Route path="/cocina">
-
-        </Route>
-        <Route path="/servir">
-
-        </Route>
+       
         <Route path="/boletas">
 
         </Route>
