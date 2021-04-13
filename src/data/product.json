@@ -1,0 +1,228 @@
+{
+    "favorito": [
+        {
+            "id": 1,
+            "Marca": "Colun",
+            "Descripcion": "Leche Sabor Chocolate Semidescremada",
+            "Cantidad": "1 L",
+            "Precio" :  "$1.290",
+            "Otro": "$1.290"
+        },
+        {
+            "id": 2,
+            "Marca": "Lider",
+            "Descripcion": 	"PH Familiar Doble Hoja",
+            "Cantidad": "6 un",
+            "Precio":	"$1.000",
+            "Otro": "Precio x Un : $167"
+        },
+        {
+            "id": 3,
+            "Marca": "Lechuga",
+            "Descripcion": "Lechuga Escarola Unidad",
+            "Cantidad":	"1 Un",
+            "Precio": "$790",
+            "Otro": "Precio x Un : $790"
+        },
+        {
+            "id": 4,
+            "Marca": "Nescafé",
+            "Descripcion": 	"Café instantáneo granulado",
+            "Cantidad":	"50 g",
+            "Precio":	"$1.460",
+            "Otro":	"Precio x Kg : $29.200"
+        },
+        {
+            "id": 5,
+            "Marca": "Sabro Kan",
+            "Descripcion": "Alimento Perro Adulto Carne y Arroz Bolsa",
+            "Cantidad":	"9 Kg",
+            "Precio": "$7.350",
+            "Otro":	"Normal:$8.150 Ahorro:$800"
+        },
+        {
+            "id": 6,
+            "Marca": "Felix",
+            "Descripcion": "Felix Adulto Atún",
+            "Cantidad": "85 g",
+            "Precio": "$500",
+            "Otro":	"Precio x Kg : $5.882"
+        }
+        ],
+        "ultimaCompra":[
+            {
+                "id": 7,
+                "Marca": "Lider",
+                "Descripcion": "Choclo En Granos Congelado",
+                "Cantidad": "500 g",
+                "Precio": "$1.000",
+                "Otro":	"Precio x Kg : $2.000"
+            },
+            {
+                "id": 8,
+                "Marca": "Frutos del Maipo",
+                "Descripcion": "Arvejas Congeladas",
+                "Cantidad":	"500 g",
+                "Precio": "$1.450",
+                "Otro": "Precio x Kg : $2.900"
+            },
+            {
+                "id": 9,
+                "Marca": "Cebolla",
+                "Descripcion": "Cebolla Morada Malla",
+                "Cantidad": "1 Kg",
+                "Precio": "$1.000",
+                "Otro": "Precio x Kg : $1.000"
+            },
+            {
+                "id": 10,
+                "Marca": "Simond's",
+                "Descripcion": "Shampoo Brillitos de Argán",
+                "Cantidad":	"400 ml",
+                "Precio":	"$2.190",
+                "Otro":	"Precio x L : $5.475"
+            },
+            {
+                "id": 11,
+                "Marca": "Nestlé",
+                "Descripcion": "Chocolate Sahne Nuss Leche",
+                "Cantidad": "250 g",
+                "Precio": "$3.150",
+                "Otro": "Precio x Kg : $12.600"
+            },
+            {
+                "id": 12,
+                "Marca": "Arcor",
+                "Descripcion": 	"Galleta Holanda Bocado",
+                "Cantidad":	"300 g",
+                "Precio":	"$1.390",
+                "Otro":	"Precio x Kg : $4.633"
+            }
+        ],
+        "ultimaOportunidad": [
+
+            {
+                "id": 12,
+                "Marca": "Supremo",
+                "Descripcion": "Té Ceylán Premium Caja",
+                "Cantidad": "100 Un",
+                "Precio": "$2.690",
+                "Otro":	"22 Pesos"
+            },
+            {
+                "id": 13,
+                "Marca": "Supremo",
+                "Descripcion": "Hierba Surtidas Caja",
+                "Cantidad":	"100 Un",
+                "Precio": "$3.790",
+                "Otro":	"Precio x Un : $38"
+            },
+            {
+                "Id": 14,
+                "Marca" : "Supremo",
+                "Descripción": "Hierba Surtidas Caja",
+                "Cantidad": "100 Un",
+                "Precio" : "$3.790",
+                "Otro": "Precio x Un : $38"
+                }, 
+                {
+                "Id": 15,
+                "Marca": "Super Pollo",
+                "Descripción": "Pechuga De Pollo",
+                "Cantidad": "700 g",
+                "Precio": "$3.150",
+                "Otro": "Precio x Kg : $4.500"
+                },
+                {
+                "Id": 16,
+                "Marca": "Ariztía",
+                "Descripción": "Trutro Largo De Pollo",
+                "Cantidad": "1 Kg",
+                "Precio": "$2.190",
+                "Otro": "Precio x Kg : $2.190",
+                "Mi Cub":"18 Pesos"
+                },
+                {
+                "Id": 17,
+                "Marca": "Al Vacío",
+                "Descripcion": "Pollo Ganso",
+                "Cantidad": "1,8 Kg",
+                "Precio": "$13.122",
+                "Otro": "Precio x Kg:$7.290"
+                }
+        ],
+        "canasta":[
+            {
+            "Id": 26,
+            "Marca": "El Buen Corte",
+            "Descripción": "Sobrecostilla - Huachalomo",
+            "Cantidad": "400 gr",
+            "Precio": "$3.716",
+            "Otro": "Precio x Kg:$9.290"
+            },   
+            {
+            "Id": 18,
+            "Marca": "Limones",
+            "Descripción": "Limón Malla",
+            "Cantidad": "1 Kg",
+            "Precio": "$1.850",
+            "Otro": "Precio x Kg : $1.850"
+            },
+            {
+            "Id": 19,
+            "Marca": "Uva",
+            "Descripción": "Uva Blanca Pote",
+            "Cantidad": "500 g",
+            "Precio": "$1.790",
+            "Otro": "Precio x Kg : $3.580"
+            },
+            {
+            "Id": 20,
+            "Marca" : "Tucapel",
+            "Descripción": "Arroz Grado 2 Bolsa",
+            "Cantidad": "1 Kg",
+            "Precio": "$1.060",
+            "Otro": "Precio x Kg : $1.060"
+            },
+            {
+            "Id": 21,
+            "Marca": "Campo Lindo",
+            "Descripción": "Garbanzo sin Piel Campo Lindo",
+            "Cantidad": "1000 g",
+            "Precio": "$2.450",
+            "Otro" : "Precio x Kg : $2.450"
+            },
+            {
+            "Id": 22,
+            "Marca": "Selz",
+            "Descripción": "Galleta Salvado Tripack",
+            "Cantidad" : "519 g",
+            "Precio" : "$1.750",
+            "Otro": "Precio x Kg : $3.372"
+            },
+            {
+            "Id": 23,
+            "Marca": "Carozzi",
+            "Descripción": "Pasta con Espinaca",
+            "Cantidad": "400 g",
+            "Precio": "$700",
+            "Otro": "Precio x Kg : $1.750"
+            },
+            {
+            "Id": 24,
+            "Marca": "Pomarola",
+            "Descripción": "Salsa tomate tradicional",
+            "Cantidad": "6 Un (200 g c/u)",
+            "Precio": "$2.190",
+            "Otro": "Precio x Kg : $1.825"
+            },
+            {
+            "Id": 25,
+            "Marca": "Natura",
+            "Descripción": "Aceite 100% Maravilla Botella",
+            "Cantidad":"1 L",
+            "Precio" :"$1.750",
+            "Otro": "Precio x L : $1.750"
+            }
+        ]
+}
