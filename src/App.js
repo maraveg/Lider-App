@@ -3,10 +3,10 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link,
-  NavLink
+  //Link,
+  //NavLink
 } from "react-router-dom";
-import Header from './components/home/Header.jsx';
+// import Header from './components/home/Header.jsx';
 import Home from './components/Home.jsx';
 
 
@@ -15,7 +15,6 @@ function App() {
     <Router>
     <div>
      <div>
-      <Header />
      </div>
       <Switch>
         <Route path="/" exact>
@@ -24,8 +23,6 @@ function App() {
         <Route path="/carausel">
 
         </Route>
-        <Route path="/orders/:numTable"
-        component={OrdersViews} />
         <Route path="/cocina">
 
         </Route>
