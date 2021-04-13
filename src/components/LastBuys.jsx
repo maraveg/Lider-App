@@ -13,9 +13,7 @@ console.log(22, lastBuy )
             <div className="seccion-products">
                 {lastBuy.map((item, index) => (
                     <div key={index + "product"} className="each-product">
-
-
-                        <img src={chocolate} className='img-product' alt="imgProduct"/>
+                        <img src={item.img} className='img-product' alt="imgProduct"/>
                         <h3 className="product-price">{item.Precio}</h3>
                         <h3 className="product-name">{item.Descripcion}</h3>
                         <h3 className="product-amount">{item.Cantidad}</h3>
