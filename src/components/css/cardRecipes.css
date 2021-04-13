@@ -5,6 +5,14 @@
         max-width: 330px;
     }
     
+    .seccion-products{
+        display: flex;
+        overflow-y: scroll;
+    }
+
+    ::-webkit-scrollbar {
+        display: none;
+    }    
 
     .cart-recipe-img{
         width: 326px;
