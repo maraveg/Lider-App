@@ -1,0 +1,12 @@
+@media (min-width : 360px) and (max-width: 768px) {
+    .contaniner-price{
+        margin: 0px 18px 0 18px;
+        width: 100vw;
+        max-width: 330px;
+    }
+    
+
+    .cart-recipe-img{
+        width: 326px;
+    }
+}
