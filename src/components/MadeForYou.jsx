@@ -1,29 +1,48 @@
 import React, { Fragment, useState } from 'react';
 import chocolate from '../chocolate.png';
+import Favorites from './Favorites';
+import LastBuys from './LastBuys';
 import './madeForYou.css'
+import Offers from './Offers';
+import Recipes from './Recipes';
 
 
 
 
-const MadeForYou = ({ product, setProduct }) => {
+const MadeForYou = ({ favorites, setfavorites, offer, setOffer, lastBuy, setLastBuy }) => {
 
 
 
-    return (
-        <Fragment>
-            <div className="">
-                {product.map((item, index) => (
-                    <div key={index + "product"} className="">
-                        <img src={chocolate} className='img-product' alt="imgProduct"/>
-                        <h3 className="product-name">{item.Descripcion}</h3>
-                        <h3 className="product-price">{item.Precio}</h3>
-                    </div>
-            ))}
-                    </div>
-        </Fragment>
+  return (
+    <Fragment>
+      <h3 className="name-user">Andrea, hecho para ti</h3>
+      <div>
+        <Favorites
+          favorites={favorites}
+          setfavorites={setfavorites}
+        />
+      </div>
+
+      <div>
+        <Offers
+          offer={offer}
+          setOffer={setOffer} />
+      </div>
+
+      <div>
+        <LastBuys
+          lastBuy={lastBuy}
+          setLastBuy={setLastBuy}
+        />
+      </div>
+
+      <div>
+        <Recipes />
+      </div>
+    </Fragment>
 
 
-    )
+  )
 }
 
 export default MadeForYou;

@@ -3,7 +3,7 @@
         {
             "id": 1,
             "Marca": "Colun",
-            "Descripcion": "Chocolate Semidescremada",
+            "Descripcion": "Chocolate",
             "Cantidad": "1 L",
             "Precio" :  "$1.290",
             "Otro": "$1.290"
