@@ -6,6 +6,7 @@ import {
   //Link,
   //NavLink
 } from "react-router-dom";
+import CardFavorites from './components/CardFavorites.jsx';
 import Home from './components/Home.jsx';
 import MadeForYou from './components/MadeForYou.jsx';
 
@@ -23,8 +24,7 @@ function App() {
   }, []);
 
   const getData = async () => {
-    const data = await fetch("https://luzciel.github.io/Lider-App/src/data/product.json"
-    );
+    const data = await fetch("https://luzciel.github.io/Lider-App/src/data/product.json");
     const allProduct = await data.json();
     setfavorites(allProduct.favorito);
     setOffer(allProduct.ultimaOportunidad);
@@ -55,8 +55,10 @@ function App() {
           />
         </Route>
        
-        <Route path="/boletas">
-
+        <Route path="/cardFavorites">
+          <CardFavorites
+          favorites={favorites}
+          setfavorites={setfavorites}/>
         </Route>
 
       </Switch>

@@ -2,6 +2,8 @@ import {Link} from "react-router-dom";
 import React from 'react';
 import './Home.css'; 
 import Gif from './ProductosPasando.gif'
+
+
 const Home = () =>{
 	return (
 		<section id="background">
