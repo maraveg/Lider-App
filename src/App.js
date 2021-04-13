@@ -3,8 +3,8 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link,
-  NavLink
+  //Link,
+  //NavLink
 } from "react-router-dom";
 import Home from './components/Home.jsx';
 import MadeForYou from './components/MadeForYou.jsx';
