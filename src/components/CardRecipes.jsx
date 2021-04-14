@@ -13,6 +13,8 @@ const CardRecipes = () => {
 
   React.useEffect(() => {
     getData();
+
+    window.scrollTo(0, 0)
   }, []);
 
   const getData = async () => {
