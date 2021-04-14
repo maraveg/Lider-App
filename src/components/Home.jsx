@@ -1,8 +1,9 @@
 import {Link} from "react-router-dom";
 import React, { useEffect, useState } from 'react'
 import './Home.css'; 
-import Gif from './productosPasando.gif'
 import Modal from 'react-modal'
+import Gif from '../img/productosPasando2.gif'
+
 
 Modal.setAppElement('#root')
 const Home = () =>{
