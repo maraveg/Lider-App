@@ -1,0 +1,59 @@
+@media (min-width : 360px) and (max-width: 768px) {
+
+    .container-title-recipe{
+        display: flex;
+        position: fixed;
+        top: 0;
+        background: white;
+        width: 100vw;
+    }
+
+    .container-title-recipe h3 {
+        margin-top: 8px;
+        font-size: 17px;
+    }
+
+    .container-title-recipe img {
+        height: 27px;
+        margin: 7px 9px 6px 18px;
+    }
+
+    .container-recipe h4 {
+        margin-left: 18px;
+        font-size: 19px;
+        color: #0071CE;
+        margin-bottom: 4px;
+    }
+    .contaniner-price{
+        margin: 0px 18px 0 18px;
+        width: 100vw;
+        max-width: 330px;
+    }
+
+    .seccion-products{
+        display: flex;
+        overflow-y: scroll;
+    }
+
+    ::-webkit-scrollbar {
+        display: none;
+    }    
+
+    .container-img-recipe{
+        display: flex;
+        justify-content: center;
+    }
+
+    .cart-recipe-img{
+        margin-top: 64px;
+        width: 326px;
+    }
+
+    .steps-recipe{
+        margin: 0px 17px;
+        text-align: justify;
+    }
+    .steps-title {
+        margin-left: 0px !important;
+    }
+}

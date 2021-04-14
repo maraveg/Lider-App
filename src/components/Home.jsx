@@ -32,10 +32,13 @@ const Home = () =>{
         onRequestClose={() => setModalIsOpen(false)}
         style={{
           overlay: {
-            backgroundColor: 'grey'
+            backgroundColor: 'grey',
+            position: 'none',
+           
           },
           content: {
-            color: 'orange'
+            color: 'orange',
+            padding: '5px 50px'
           }
         }}
       >
