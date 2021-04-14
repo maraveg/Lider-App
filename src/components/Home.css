@@ -1,11 +1,20 @@
+@font-face {
+    font-family: 'Bogle-Regular';
+    src: url(../fonts/BogleWeb-Black.woff);
+  }
 #background{
     text-align: center;
     background-image: url(../img/Back-home.png);
-    position: fixed;
+    
     min-width: 360px;
     min-height: 696px;
     background-size: cover;
-    background-position: center;    
+    background-position: center;
+}
+#banner-divcontainer{
+    width: 666px;
+    height: 244px;
+    position: relative;
 }
 
 .banner-divcontainer{
@@ -53,12 +62,13 @@
     border-radius: 15px;
 }
 #text-button{
+    padding: 10px 30px 10px 30px;
     width: 154px;
     margin-left: 45px;
     
 }
 #text-button p{
-    font-family: Roboto;
+    font-family: 'Bogle-Regular';
     font-style: normal;
     font-weight: 900;
     font-size: 13px;
@@ -78,4 +88,9 @@
     align-items: center;
     text-align: center;
     color: #0071ce;
+    justify-content: center;
+}
+.ReactModalPortal{
+    inset: 0px;
+    background-color: rgb(230, 63, 63);
 }
