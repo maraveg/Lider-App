@@ -1,0 +1,43 @@
+{
+    "recipe": [
+        {
+            "id": 1,
+            "Marca": "Al Vacío",
+            "Descripcion": "Posta De Paleta",
+            "Cantidad": "1 kg",
+            "Precio" :  "$5.990",
+            "Otro": "$1.290",
+            "img": "https://i.imgur.com/2Yz89TN.jpg"
+        },
+        {
+            "id": 2,
+            "Marca": "Lider",
+            "Descripcion": 	"Salsa de soya",
+            "Cantidad": "6 un",
+            "Precio":	"$1.000",
+            "Otro": "Precio x Un : $167",
+            "img":"https://i.imgur.com/NEyEbEN.jpg"
+        },
+        {
+            "id": 3,
+            "Marca": "PF",
+            "Descripcion": "Panceta ahumada",
+            "Cantidad":	"150 g",
+            "Precio": "$2.650",
+            "Otro": "Precio x Un : $695",
+            "img":"https://i.imgur.com/EEPxSTV.jpg"
+        },
+        {
+            "id": 4,
+            "Marca": "Cilantro",
+            "Descripcion": 	"Cilantro",
+            "Cantidad":	"120 g",
+            "Precio":	"$490",
+            "Otro":	"Precio x Kg : $29.200",
+            "img":" https://i.imgur.com/PK7ok8t.jpg"
+        }
+        ]
+        
+}
+
+

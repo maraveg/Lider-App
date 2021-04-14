@@ -140,19 +140,10 @@
                 "Otro":	"Precio x Un : $38",
                 "img":" https://images.lider.cl/wmtcl?set=imageSize[medium],imageURL[file:/productos/290103a.jpg],options[progressive]&call=url[file:catalog/sizing.chain]&sink=format[jpg],options[progressive] "
             },
-            {
-                "id": 15,
-                "Marca" : "Supremo",
-                "Descripción": "Hierba Surtidas",
-                "Cantidad": "50 Un",
-                "Precio" : "$1.790",
-                "Otro": "Precio x Un : $58",
-                "img":" https://images.lider.cl/wmtcl?set=imageSize[medium],imageURL[file:/productos/290103a.jpg],options[progressive]&call=url[file:catalog/sizing.chain]&sink=format[jpg],options[progressive] "
-                }, 
                 {
                 "id": 16,
                 "Marca": "Super Pollo",
-                "Descripción": "Pechuga De Pollo",
+                "Descripcion": "Pechuga De Pollo",
                 "Cantidad": "700 g",
                 "Precio": "$3.150",
                 "Otro": "Precio x Kg : $4.500",
@@ -161,7 +152,7 @@
                 {
                 "id": 17,
                 "Marca": "Ariztía",
-                "Descripción": "Trutro Largo De Pollo",
+                "Descripcion": "Trutro Largo De Pollo",
                 "Cantidad": "1 Kg",
                 "Precio": "$2.190",
                 "Otro": "Precio x Kg : $2.190", 
@@ -182,7 +173,7 @@
             {
             "Id": 26,
             "Marca": "El Buen Corte",
-            "Descripción": "Sobrecostilla",
+            "Descripcion": "Sobrecostilla",
             "Cantidad": "400 gr",
             "Precio": "$3.716",
             "Otro": "Precio x Kg:$9.290",
@@ -191,7 +182,7 @@
             {
             "Id": 19,
             "Marca": "Limones",
-            "Descripción": "Limón Malla",
+            "Descripcion": "Limon Malla",
             "Cantidad": "1 Kg",
             "Precio": "$1.850",
             "Otro": "Precio x Kg : $1.850",
@@ -200,7 +191,7 @@
             {
             "Id": 20,
             "Marca": "Uva",
-            "Descripción": "Uva Blanca",
+            "Descripcion": "Uva Blanca",
             "Cantidad": "500 g",
             "Precio": "$1.790",
             "Otro": "Precio x Kg : $3.580",
@@ -209,7 +200,7 @@
             {
             "Id": 21,
             "Marca" : "Tucapel",
-            "Descripción": "Arroz Grado 2",
+            "Descripcion": "Arroz Grado 2",
             "Cantidad": "1 Kg",
             "Precio": "$1.060",
             "Otro": "Precio x Kg : $1.060",
@@ -218,7 +209,7 @@
             {
             "Id": 22,
             "Marca": "Campo Lindo",
-            "Descripción": "Garbanzo sin Piel",
+            "Descripcion": "Garbanzo sin Piel",
             "Cantidad": "1000 g",
             "Precio": "$2.450",
             "Otro" : "Precio x Kg : $2.450",
@@ -227,7 +218,7 @@
             {
             "Id": 23,
             "Marca": "Selz",
-            "Descripción": "Galleta Salvado",
+            "Descripcion": "Galleta Salvado",
             "Cantidad" : "519 g",
             "Precio" : "$1.750",
             "Otro": "Precio x Kg : $3.372",
@@ -236,7 +227,7 @@
             {
             "Id": 24,
             "Marca": "Carozzi",
-            "Descripción": "Pasta con Espinaca",
+            "Descripcion": "Pasta con Espinaca",
             "Cantidad": "400 g",
             "Precio": "$700",       
             "Otro": "Precio x Kg : $1.750",
@@ -245,7 +236,7 @@
             {
             "Id": 25,
             "Marca": "Pomarola",
-            "Descripción": "Salsa tomate",
+            "Descripcion": "Salsa tomate",
             "Cantidad": "6 Un (200 g c/u)",
             "Precio": "$2.190", 
             "Otro": "Precio x Kg : $1.825",
@@ -254,7 +245,7 @@
             {
             "Id": 26,
             "Marca": "Natura",
-            "Descripción": "Aceite Maravilla",
+            "Descripcion": "Aceite Maravilla",
             "Cantidad":"1 L",
             "Precio" :"$1.750",
             "Otro": "Precio x L : $1.750",

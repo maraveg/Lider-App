@@ -7,6 +7,7 @@ import {
   //NavLink
 } from "react-router-dom";
 import CardFavorites from './components/CardFavorites.jsx';
+import CardRecipes from './components/CardRecipes.jsx';
 import Home from './components/Home.jsx';
 import MadeForYou from './components/MadeForYou.jsx';
 
@@ -59,6 +60,10 @@ function App() {
           <CardFavorites
           favorites={favorites}
           setfavorites={setfavorites}/>
+        </Route>
+
+        <Route path="/cardRecipes">
+          <CardRecipes/>
         </Route>
 
       </Switch>
