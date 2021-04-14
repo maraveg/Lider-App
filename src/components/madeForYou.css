@@ -76,6 +76,7 @@ h5{
     /* recipe */
     .recipe-img {
         width: 276px;
+        height: 155px;
         border-radius: 13px;
         margin: 0 2px 0 15px;
     }

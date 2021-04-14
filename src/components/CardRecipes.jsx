@@ -1,6 +1,8 @@
 import React, {  Fragment } from 'react';
+import {Link} from "react-router-dom";
 import meat from '../img/carne-horno.jpg';
 import './css/cardRecipes.css'
+import arrow from '../img/arrow-left.png';
 
 
 
@@ -22,11 +24,15 @@ const CardRecipes = () => {
 
   return (
     <Fragment>
+      <div className="container-title-recipe">
+      <Link to="/madeForYou"><img src={arrow} alt="" /></Link>
       <h3>Carne al horno con cilantro</h3>
+      </div>
       <section className="container-recipe">
-        <div>
+        <div className="container-img-recipe">
           <img src={meat} alt="cart-recipe-img" className='cart-recipe-img' />
         </div>
+        <h4>Ingredientes</h4>
         <div className="seccion-products">
           {ingredients.map((item, index) => (
             <div key={index + "product"} className="each-product">
@@ -37,9 +43,10 @@ const CardRecipes = () => {
             </div>
           ))}
         </div>
-        <div>
-          <h4>Ingredientes</h4>
+        <div className="steps-recipe">
+          
           <p>
+          <strong> Para la carne </strong><br />
             1 kilo de posta paleta el Buen Corte LIDER <br />
           2 tazas de cilantro <br />
           4 cucharadas de soya LIDER<br />
@@ -53,8 +60,8 @@ const CardRecipes = () => {
           Sal y pimienta LIDER<br />
           </p>
         </div>
-        <div>
-          <h3>Pasos</h3>
+        <div className="steps-recipe">
+          <h4 className="steps-title">Pasos</h4>
           <p>
             <strong>Paso 1</strong><br />
           En el vaso de la procesadora, agregar el cilantro previamente lavado junto con media taza de agua, moler. <br />
