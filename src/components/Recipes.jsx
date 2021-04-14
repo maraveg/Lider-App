@@ -13,6 +13,7 @@ const Recipes = () => {
   return (
     <Fragment>
       <h3>Recetas</h3>
+      <h5>Ver más</h5>
       <div className="seccion-products">
         <div className="each-recipe">
           <img src={chicken} alt="" className="recipe-img" />

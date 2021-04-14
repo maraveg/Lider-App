@@ -1,36 +1,78 @@
+h3{
+    color: #292929;
+}
+h5{
+    margin-left: 290px;
+    margin-top: -35px;
+    color:#0071CE;
+}
+
 @media (min-width : 360px) and (max-width: 768px) {
     .seccion-products{
         display: flex;
         overflow-y: scroll;
+        color: #292929ad;
+        font-size: 11px;
+        margin-block-start: 2px;
+        margin-block-end: 18px;
+        margin-left: 5px;
     }
 
     ::-webkit-scrollbar {
         display: none;
     }    
     .each-product{
-        min-width: 41%;
+        min-width: 50%;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        justify-content: flex-start;
+        
+    }
+    .img-love{
+        width: 25px;
     }
     .img-product{
         max-width: 91px;
+        margin-left: 25px;
     }
-
+    .img-love{
+        margin-top: -90px;
+        margin-inline-start: 115px;
+        margin-inline-end: 15px;
+    }
     .product-name{
         font-size: 50px;
         margin: 0;
-        font-family: Roboto;
+        /*font-family: Roboto;*/
         font-style: normal;
         font-weight: normal;
-        font-size: 13px;
+        font-size: 11px;
     }
     .product-price{
         font-size: 13px;
         margin: 0;
+        margin-block-start: 65px;
+        margin-block-end: 3px;
+        margin-inline-start: 0px;
+        margin-inline-end: 85px;
+        display: block;
+        color: #292929;
     }
+    .product-amount{
+        margin-top: 2px; 
+        color: #9E9A9A;
 
+    }
+    .btn-add{
+        border-radius: 50px;
+        width: 70px;
+        border-color: #0071CE;
+        background-color: white;
+        color: #0071CE;
+        margin-left: 25px;
+        margin-top: 10px;
+  
+    }
     /* recipe */
     .recipe-img {
         width: 276px;
