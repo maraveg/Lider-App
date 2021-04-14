@@ -17,6 +17,10 @@ h5{
         margin-block-end: 18px;
         margin-left: 5px;
     }
+    
+    .name-user{ 
+        color: #0071CE;
+    }
 
     ::-webkit-scrollbar {
         display: none;

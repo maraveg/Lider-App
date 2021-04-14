@@ -7,22 +7,50 @@
     background-size: cover;
     background-position: center;    
 }
+
+.banner-divcontainer{
+    width: 666px;
+    height: 244px;
+    position: relative;
+}
 #banner-container{
     background-image: url(../img/banner.png);
     border: 2px solid #0071CE;
     width: 333px;
-    height: 122px;
+    /* height: 122px; */
     display: flex;
     /* background: rgba(203, 55, 55, 0.47); */
     border-radius: 7px;
+    /* padding: 5px; */
+    position: absolute;
+    margin-top: 135px;
+    margin-left: 8px;
 }
 #image-container{
     width: 119px;
     height: 122px;
 }
-#gif-img{
+
+
+
+/* #banner-container{
+    background-image: url(../img/banner.png);
+    border: 2px solid #0071CE;
+    width: 333px;
+    height: 122px;
+    display: flex; */
+    /* background: rgba(203, 55, 55, 0.47); */
+    /* border-radius: 7px;
+}
+#image-container{
     width: 119px;
     height: 122px;
+} */
+#gif-img{
+    width: 113px;
+    height: 97px;
+    margin-top: 15px;
+    border-radius: 15px;
 }
 #text-button{
     width: 154px;
@@ -38,7 +66,7 @@
 }
 #enter-btn{
     width: 119px;
-    height: 35px;
+    height: 28px;
     background: #FFC220;
     border-radius: 7px;
     font-family: Roboto;
