@@ -24,7 +24,11 @@ h5{
 
     ::-webkit-scrollbar {
         display: none;
-    }    
+    }   
+    
+    .container-favorites{
+        margin-top: 51px;
+    }
     .each-product{
         min-width: 50%;
         display: flex;

@@ -1,10 +1,11 @@
 import React, { Fragment, useState } from 'react';
-import chocolate from '../chocolate.png';
+import {Link} from "react-router-dom";
 import Favorites from './Favorites';
 import LastBuys from './LastBuys';
 import './madeForYou.css'
 import Offers from './Offers';
 import Recipes from './Recipes';
+import arrow from '../img/arrow-left.png';
 
 
 
@@ -15,7 +16,10 @@ const MadeForYou = ({ favorites, setfavorites, offer, setOffer, lastBuy, setLast
 
   return (
     <Fragment>
+      <div className="container-title-recipe">
+      <Link to="/"><img src={arrow} alt="" /></Link>
       <h3 className="name-user">Andrea, hecho para ti</h3>
+      </div>
       <div>
         <Favorites
           favorites={favorites}
@@ -28,6 +32,9 @@ const MadeForYou = ({ favorites, setfavorites, offer, setOffer, lastBuy, setLast
           offer={offer}
           setOffer={setOffer} />
       </div>
+      <div>
+        <Recipes />
+      </div>
 
       <div>
         <LastBuys
@@ -36,9 +43,6 @@ const MadeForYou = ({ favorites, setfavorites, offer, setOffer, lastBuy, setLast
         />
       </div>
 
-      <div>
-        <Recipes />
-      </div>
     </Fragment>
 
 

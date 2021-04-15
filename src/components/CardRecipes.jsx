@@ -3,6 +3,7 @@ import {Link} from "react-router-dom";
 import meat from '../img/carne-horno.jpg';
 import './css/cardRecipes.css'
 import arrow from '../img/arrow-left.png';
+import love2 from '../img/corazonBlanco.png'
 
 
 
@@ -38,10 +39,12 @@ const CardRecipes = () => {
         <div className="seccion-products">
           {ingredients.map((item, index) => (
             <div key={index + "product"} className="each-product">
-              <img src={item.img} className='img-product' alt="imgProduct" />
-              <h3 className="product-price">{item.Precio}</h3>
-              <h3 className="product-name">{item.Descripcion}</h3>
-              <h3 className="product-amount">{item.Cantidad}</h3>
+                        <img src={item.img} className='img-product' alt="imgProduct"/>
+                        <img src={love2} className='img-love' alt="imgHeart"/>
+                        <h3 className="product-price">{item.Precio}</h3>
+                        <h3 className="product-name">{item.Descripcion}</h3>
+                        <h3 className="product-amount">{item.Cantidad}</h3>
+                        <button className="btn-add">Agregar</button>
             </div>
           ))}
         </div>
