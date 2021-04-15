@@ -20,8 +20,8 @@ const Home = () =>{
 						<img id="gif-img" src={Gif} alt="g"/>
 					</div>
 					<div id="text-button">
-						<p>Juana, encuentra tus favoritos a un solo click</p>
-						<Link to="/madeForYou"><button id="enter-btn">Click</button></Link>
+						<p>Andrea, encuentra tus favoritos a un solo click</p>
+						<Link to="/madeForYou"><button id="enter-btn">Ver más</button></Link>
 					</div>
 				</div>
 			</div>

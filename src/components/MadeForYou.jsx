@@ -20,7 +20,7 @@ const MadeForYou = ({ favorites, setfavorites, offer, setOffer, lastBuy, setLast
       <Link to="/"><img src={arrow} alt="" /></Link>
       <h3 className="name-user">Andrea, hecho para ti</h3>
       </div>
-      <div>
+      <div className="container-favorites">
         <Favorites
           favorites={favorites}
           setfavorites={setfavorites}

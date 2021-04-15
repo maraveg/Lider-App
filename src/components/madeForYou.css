@@ -78,6 +78,7 @@ h5{
     .product-amount{
         margin-top: 2px; 
         color: #9E9A9A;
+        font-size: 12px;
 
     }
     .btn-add{
@@ -102,6 +103,12 @@ h5{
 
     .each-recipe{
         /* width: 1396px; */
+    }
+
+    .title-recipe{
+        font-size: 15px;
+        margin-left: 20px;
+        margin-top: 3px;
     }
 
 }
