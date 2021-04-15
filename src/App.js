@@ -10,6 +10,7 @@ import CardFavorites from './components/CardFavorites.jsx';
 import CardRecipes from './components/CardRecipes.jsx';
 import Home from './components/Home.jsx';
 import MadeForYou from './components/MadeForYou.jsx';
+import './App.css'; 
 
 
 function App() {
