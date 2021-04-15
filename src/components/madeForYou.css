@@ -13,6 +13,8 @@ h5{
         overflow-y: scroll;
         color: #292929ad;
         font-size: 11px;
+        font-family: 'Bogle-Regular';
+        font-weight: bold;
         margin-block-start: 2px;
         margin-block-end: 18px;
         margin-left: 5px;
@@ -20,6 +22,9 @@ h5{
     
     .name-user{ 
         color: #0071CE;
+        font-size: 19px;
+        font-family: 'Bogle-Bold';
+        font-weight: bold;
     }
 
     ::-webkit-scrollbar {
@@ -50,6 +55,8 @@ h5{
     }
     .product-name{
         font-size: 50px;
+        font-family: 'Bogle-Regular';
+        font-weight: bold;
         margin: 0;
         /*font-family: Roboto;*/
         font-style: normal;
@@ -58,6 +65,8 @@ h5{
     }
     .product-price{
         font-size: 13px;
+        font-family: 'Bogle-Regular';
+        font-weight: bold;
         margin: 0;
         margin-block-start: 65px;
         margin-block-end: 3px;
@@ -79,6 +88,8 @@ h5{
         color: #0071CE;
         margin-left: 25px;
         margin-top: 10px;
+        font-family: 'Bogle-Regular';
+        font-weight: bold;
   
     }
     /* recipe */

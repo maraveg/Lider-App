@@ -1,7 +1,7 @@
 import React, {  Fragment } from 'react';
 import {Link} from "react-router-dom";
 import meat from '../img/carne-horno.jpg';
-import './css/cardRecipes.css'
+import './cardRecipes.css';
 import arrow from '../img/arrow-left.png';
 import love2 from '../img/corazonBlanco.png'
 
