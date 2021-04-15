@@ -1,7 +1,7 @@
-@font-face {
+/* @font-face {
     font-family: 'Bogle-Regular';
     src: url(../fonts/BogleWeb-Black.woff);
-  }
+  } */
 #background{
     text-align: center;
     background-image: url(../img/Back-home.png);
@@ -26,7 +26,7 @@
     background-image: url(../img/banner.png);
     border: 2px solid #0071CE;
     width: 333px;
-    /* height: 122px; */
+    height: 122px;
     display: flex;
     /* background: rgba(203, 55, 55, 0.47); */
     border-radius: 7px;
@@ -68,8 +68,8 @@
     
 }
 #text-button p{
-    font-family: 'Bogle-Regular';
-    font-style: normal;
+    font-family: 'Bogle-Bold';
+    font-style:normal;
     font-weight: 900;
     font-size: 13px;
     color: white;
