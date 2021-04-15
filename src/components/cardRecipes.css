@@ -10,9 +10,9 @@
 
     .container-title-recipe h3 {
         margin-top: 8px;
-        font-family: 'Bogle-Regular';
+        font-family: 'Bogle-Black';
         font-weight: bold;
-        font-size: 17px;
+        font-size: 20px;
     }
 
     .container-title-recipe img {
@@ -22,11 +22,12 @@
 
     .container-recipe h4 {
         margin-left: 18px;
-        font-family: 'Bogle-Bold';
+        font-family: 'Bogle-Black';
         font-weight: bold;
         font-size: 19px;
         color: #0071CE;
         margin-bottom: 4px;
+        letter-spacing: 0.2px;
     }
     .contaniner-price{
         margin: 0px 18px 0 18px;

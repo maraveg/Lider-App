@@ -1,5 +1,4 @@
-import React, { Fragment, useState } from 'react';
-import chocolate from '../chocolate.png';
+import React, { Fragment } from 'react';
 import love2 from '../img/corazonBlanco.png'
 
 

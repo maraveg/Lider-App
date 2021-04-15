@@ -28,7 +28,6 @@
     width: 333px;
     height: 122px;
     display: flex;
-    /* background: rgba(203, 55, 55, 0.47); */
     border-radius: 7px;
     /* padding: 5px; */
     position: absolute;
@@ -62,33 +61,36 @@
     border-radius: 15px;
 }
 #text-button{
-    padding: 10px 30px 10px 30px;
-    width: 154px;
-    margin-left: 45px;
+    /* padding: 10px 30px 10px 30px; */
+    /* width: 154px; */
+    margin-left: 30px;
     
 }
 #text-button p{
     font-family: 'Bogle-Bold';
     font-style:normal;
     font-weight: 900;
-    font-size: 13px;
+    font-size: 17px;
     color: white;
 }
 #enter-btn{
     width: 119px;
     height: 28px;
-    background: #ffffff;
-    border-radius: 7px;
-    font-family: Roboto;
-    font-style: normal;
+    color: #0071CE;
+    line-height: 30px;
+    font-family: 'Bogle-Black';
     font-weight: 900;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 17px;
+    margin-left: 30px;
     border: none;
     align-items: center;
     text-align: center;
-    color: #0071ce;
+    background: #FFFFFF;
+    border-radius: 10px;
     justify-content: center;
+    padding: 0px 16px 16px;
+    letter-spacing: 0.2px;
 }
 .ReactModalPortal{
     inset: 0px;

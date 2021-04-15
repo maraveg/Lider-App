@@ -21,7 +21,7 @@ const Home = () =>{
 					</div>
 					<div id="text-button">
 						<p>Andrea, encuentra tus favoritos a un solo click</p>
-						<Link to="/madeForYou"><button id="enter-btn">Ver Más</button></Link>
+						<Link to="/madeForYou"><button id="enter-btn">Ver más</button></Link>
 					</div>
 				</div>
 			</div>
@@ -35,18 +35,19 @@ const Home = () =>{
           overlay: {
             backgroundColor: 'grey',
             position: 'none',
-           
+            
+            
           },
           content: {
             color: 'orange',
-            padding: '5px 50px'
+            padding: '5px 0px 0px 245px',
+            height: '345px',
+            margin: '100px 0px 0px 5px'
           }
         }}
       >
-        <h2>Modal title</h2>
-        <div>Modal Body</div>
         <div>
-          <button onClick={() => setModalIsOpen(false)}>Close</button>
+          <button onClick={() => setModalIsOpen(false)}>X</button>
         </div>
       </Modal>
     </div>

@@ -1,10 +1,16 @@
 h3{
     color: #292929;
+    font-family: 'Bogle-Black';
+    font-weight: 900;
+    letter-spacing: 0.1px;
 }
 h5{
     margin-left: 290px;
     margin-top: -35px;
     color:#0071CE;
+    font-family: 'Bogle-Regular';
+    font-size: 14px;
+    letter-spacing: 0.3px;
 }
 
 @media (min-width : 360px) and (max-width: 768px) {
@@ -29,7 +35,11 @@ h5{
 
     ::-webkit-scrollbar {
         display: none;
-    }    
+    }   
+    
+    .container-favorites{
+        margin-top: 51px;
+    }
     .each-product{
         min-width: 50%;
         display: flex;
@@ -60,7 +70,8 @@ h5{
         font-size: 11px;
     }
     .product-price{
-        font-size: 13px;
+        font-size: 15px;
+        letter-spacing: 0.2px;
         font-family: 'Bogle-Black';
         margin: 0;
         margin-block-start: 65px;
@@ -73,6 +84,7 @@ h5{
     .product-amount{
         margin-top: 2px; 
         color: #9E9A9A;
+        font-size: 12px;
 
     }
     .btn-add{
@@ -85,6 +97,13 @@ h5{
         margin-top: 10px;
         font-family: 'Bogle-Black';
         font-weight: bold;
+        border: 1.5px solid #0071CE;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-size: 13.5px;
+        padding: 0px 16px 2px;
   
     }
     /* recipe */
@@ -97,6 +116,12 @@ h5{
 
     .each-recipe{
         /* width: 1396px; */
+    }
+
+    .title-recipe{
+        font-size: 15px;
+        margin-left: 20px;
+        margin-top: 3px;
     }
 
 }

@@ -19,18 +19,18 @@ const Recipes = () => {
       <div className="seccion-products">
         <div className="each-recipe">
           <img src={chicken} alt="" className="recipe-img" />
-          <p>Pollo a la mostaza</p>
+          <p className="title-recipe">Pollo a la mostaza</p>
         </div>
         <div className="each-recipe">
           <div>
         <Link to="/cardRecipes"><img src={meats} alt="" className="recipe-img" /></Link>
 
           </div>
-          <p>Carne al horno</p>
+          <p className="title-recipe">Carne al horno</p>
         </div>
         <div className="each-recipe">
           <img src={PieLimon} alt="" className="recipe-img" />
-          <p>Pie de Limon</p>
+          <p className="title-recipe">Pie de Limon</p>
         </div>
       </div>
     </Fragment>
