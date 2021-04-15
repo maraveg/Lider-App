@@ -5,5 +5,10 @@
 @font-face {
   font-family: 'Bogle-Bold';
   src: url(./fonts/BogleWeb-Bold.woff);
-  font-weight: bold;
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Bogle-Black';
+  src: url(./fonts/BogleWeb-Black.woff);
+  font-weight: 900;
 }
